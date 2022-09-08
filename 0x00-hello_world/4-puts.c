@@ -6,10 +6,9 @@
  * puts - function to print 
  * Return: Always 0 (Success)
  */
-int main(void) /*main declaration*/
+int main(void)
 {
-	char Mystr[]="\"Programming is like building a multilingual puzzle";
-	
-	puts(Mystr); 
+	char Mystr[] = "\"Programming is like building a multilingual puzzle";
+	puts(Mystr);
 	return (0);
 }
