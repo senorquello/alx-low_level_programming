@@ -3,7 +3,7 @@
 /**
  * print_alphabet_x10 - check main
  * Description: Using _putchar to print alphabet 10 times
- * Return: Nothing 
+ * Return: Nothing
  */
 
 void print_alphabet_x10(void)
