@@ -4,7 +4,7 @@
 /**
  * print_to_98 - check main
  * @n: An input inteer
- * Description: function that prints all natural numbers from n to 98, followed by newline
+ * Description: function that prints all natural numbers from n to 98, newline
  * Return: Nothing
  */
 void print_to_98(int n)
