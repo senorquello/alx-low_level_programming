@@ -2,7 +2,8 @@
 
 /**
  *_islower - check main
-Description: function uses putchar to check if alphabet is lowercase or not
+ @c: An input character
+Description: function uses _putchar function  to check if alphabet is lowercase or not
 Return: 1 if lowercase or 0 if upprcase
 */
 int _islower(int c)
