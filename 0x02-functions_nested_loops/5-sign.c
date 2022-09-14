@@ -4,7 +4,7 @@
  * print_sign - check main
  * @n: An input number
  * Description: function prints the sign of the number
- * Return: 1 if the number is positive, o if the number is 0, or -1 if the number is negative
+ * Return: 1 if positive, o if the number is 0, or -1 if the number is negative
  */
 int print_sign(int n)
 {
