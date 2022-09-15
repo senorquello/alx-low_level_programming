@@ -13,9 +13,12 @@ void print_times_table(int n)
 		for (i = 0; i <= n; i++)
 		{
 			_putchar('0');
+
 			for (j = 1; j <=; j++)
+			{
 				putformat(i * j);
 			_putchar('\n');
+			}
 		}
 	}
 }
@@ -49,6 +52,6 @@ void putformat(int n)
 		_putchar(' ');
 		_putchar(n / 100 + '0');
 		_putchar(n / 10 % 10 + '0');
-		_puchar(n % 10 + '0');
+		_putchar(n % 10 + '0');
 	}
 }
