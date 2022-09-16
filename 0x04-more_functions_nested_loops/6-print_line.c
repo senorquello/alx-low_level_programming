@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * print_line - draw a straight line in the terminal
- * @n: 	An input integer
- * Return: Always 0.
+ * print_line - a function that draws a straight line in the terminal
+ * @n: An input integer
+ * Return: Always 0
  */
-void print_line(int)
+void print_line(int n)
 {
 	int i = 0;
 
