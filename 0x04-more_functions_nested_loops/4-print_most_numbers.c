@@ -1,19 +1,14 @@
 #include "main.h"
 
 /**
- * print_most_numbers - a functionthat prints the numbers, 0-9
- * DO not print 2 and 4
- * followed by a new line 
+ * print_numbers - a function to print 0 to 9
  * Return: Always 0
  */
-void print_most_numbers(void)
+void print_numbers(void)
 {
-	char i;
+	int i = '0';
 
-	for (i = '0'; i <= '9'; i++)
-	{
-		if (i != '2' && i != '4')
-			_putchar(i);
-	}
+	for (; i <= '9'; i++)
+		_putchar(i);
 	_putchar('\n');
 }
