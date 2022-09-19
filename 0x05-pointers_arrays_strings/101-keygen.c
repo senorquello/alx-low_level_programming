@@ -3,19 +3,20 @@
 #include <stdlib.h>
 #include <time.h>
 
-void randomPasswordGeneration(int 10)
+void randomPasswordGeneration(int N)
 {
 	int i = 0;
 	int randomizer = 0;
+	int N = 10;
 
 	srand((unsigned int)(time(NULL)));
 	char numbers[] = "0123456789";
 	char letter[] = "abcdefghijklmnopqrstuvwxyz";
 	char LETTER[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	char symbols[] = "!@#$%^&*?";
-	char password[10];
+	char password[N];
 
-	for (i = 0; i < 10; i++)
+	for (i = 0; i < N; i++)
 	{
 		if (randomizer == 1)
 		{
