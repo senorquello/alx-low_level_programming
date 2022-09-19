@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-void randomPasswordGeneration(int N)
+void randomPasswordGeneration(int 10)
 {
 	int i = 0;
 	int randomizer = 0;
