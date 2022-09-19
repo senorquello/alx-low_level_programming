@@ -8,6 +8,7 @@
 int _strlen(char *s)
 {
 	int len = 0;
+
 	while (*s != '\0')
 	{
 		len++;
@@ -23,7 +24,7 @@ int _strlen(char *s)
  * @dest: A pointer to destination of string
  * @src: A pointer to source string to copy from
  *
- * Return : aux pointer to dest
+ * Return: copy of original source
  */
 char *_strcpy(char *dest, char *src)
 {
