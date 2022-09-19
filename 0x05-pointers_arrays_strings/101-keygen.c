@@ -10,8 +10,9 @@
 int main(void)
 {
 	int i, j, k, s;
-	char c[] = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz;
+	char c[] = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 	char p[58];
+
 	srand(time(NULL));
 	while (s != 2772)
 	{
@@ -19,7 +20,7 @@ int main(void)
 		while ((2772 - 122) > s)
 		{
 			j = rand() % 62;
-			p[i] = c[i];
+			p[i] = c[j];
 			s += c[j];
 			i++;
 		}
