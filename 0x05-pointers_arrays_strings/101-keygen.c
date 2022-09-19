@@ -9,13 +9,13 @@ void randomPasswordGeneration(int N)
 	int randomizer = 0;
 
 	srand((unsigned int)(time(NULL)));
-	int numbers[] = "0123456789";
+	char numbers[] = "0123456789";
 	char letter[] = "abcdefghijklmnopqrstuvwxyz";
 	char LETTER[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	char symbols[] = "!@#$%^&*?";
-	char password[N];
+	char password[10];
 
-	for (i = 0; i < N; i++)
+	for (i = 0; i < 10; i++)
 	{
 		if (randomizer == 1)
 		{
