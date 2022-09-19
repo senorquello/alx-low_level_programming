@@ -17,7 +17,7 @@ void randomPasswordGeneration(int N)
 
 	for (i = 0; i < N; i++)
 	{
-		if (ranomizer == 1)
+		if (randomizer == 1)
 		{
 			password[i] = numbers[rand() % 10];
 			randomizer = rand() % 4;
