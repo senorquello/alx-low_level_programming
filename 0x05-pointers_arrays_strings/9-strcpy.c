@@ -13,7 +13,7 @@ int _strlen(char *s)
 		len++;
 		s++;
 	}
-	return (len)
+	return (len);
 }
 /**
  * _strcpy - a function that copies the string pointed to by src,
