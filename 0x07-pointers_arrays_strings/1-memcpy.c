@@ -1,4 +1,4 @@
-#include "min.h"
+#include "main.h"
 
 /**
  * _memcpy - a function that copys memory area
@@ -9,7 +9,8 @@
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
-	int size = n /*only accept positive size*/
+	int size = n;
+
 		if (size > 0)
 		{
 			int i;
