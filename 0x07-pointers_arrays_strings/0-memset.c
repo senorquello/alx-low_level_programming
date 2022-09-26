@@ -3,12 +3,12 @@
 /**
  * _memset - fills memory with a constant byte
  *
- * @s: pointer to a string
- * @b: constaant byte
- * @n: first bytes to change
- * Reurn: pointer to modified string
+ * @s: pointer to string
+ * @b: constant byte
+ * @n: first bytes to change 
+ * Return: pointer to modified string
  */
-char _*memset(char *s, char b, unsigned int n)
+char *_memset(char *s, char b, unsigned int n)
 {
 	unsigned int i;
 
