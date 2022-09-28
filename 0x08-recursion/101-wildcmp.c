@@ -1,13 +1,19 @@
 #include "main.h"
-
 /**
- * _strlen_recursion - a function that returns the length of a string.
- * @s: An input string to printing
- * Return: The length of the string
+ * wildcmp - A function that compares two strings
+ * @s1: First input string
+ * @s2: Second input string
+ * Return: 1 if strings identical and 0 in otherwise
  */
-int _strlen_recursion(char *s)
+int wildcmp(char *s1, char *s2)
 {
-	if (*s)
-		return (1 + _strlen_recursion(s + 1));
+	if (!*s1 && !*s2)
+		return (1);
+	if (*s1 == *s2)
+		return (wildcmp(s1 + 1, s2 + 1));
+	if (*s2 == '*' && (wildcmp(s1, s2 + 1) || wildcmp(s1 + 1, s2)))
+		return (1);
+	if (*s2 == '*' && *(s1 + 1) && *s2)
+		return (0);
 	return (0);
 }
